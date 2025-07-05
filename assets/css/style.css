@@ -1,0 +1,174 @@
+:root {
+    --green: #4E9E71;
+    --black: #000000;
+    --white: #ffffff;
+    --silver: #8C9091;
+    --mandarine: #FF6B00;
+    --strawberry-red: #C31C4A;
+    --viola: #773DBD;
+    --teal: #007580;
+    --gray: #8E9093;
+    --bg1: #F1F2F2;
+    --bg2: #EBECEC;
+    --font-family: "Gotham";
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.section {
+    padding-top: 100px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Start Header */
+
+.navbar {
+    padding: 30px 0px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.offcanvas-body .nav-item .nav-link {
+    color: var(--black);
+    font-weight: 500;
+}
+
+.offcanvas-body .nav-item .nav-link.active {
+    color: var(--green);
+}
+
+.fa-magnifying-glass {
+    color: var(--green);
+}
+
+.btn-menu {
+    border: 2px solid var(--green);
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: var(--green);
+    margin: 0 0.75rem;
+}
+
+/* End Header */
+
+/* Start Home */
+
+.slider .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 70px;
+    left: auto;
+    color: var(--white);
+}
+
+.slider .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 70px;
+    right: auto;
+    color: var(--white);
+}
+
+.slider .swiper-pagination {
+    position: relative;
+    margin-top: 25px;
+}
+
+.slider .slider-content {
+    background-color: var(--bg1);
+    padding: 30px 0px;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0px;
+    width: 20px;
+    height: 3px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--green);
+}
+
+p.green {
+    color: var(--green);
+}
+
+.hex-grid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.hex-row {
+	display: flex;
+	gap: 20px;
+}
+
+.hex-row.offset {
+	margin-top: -40px;
+	margin-left: 0px;
+
+}
+
+.hex {
+	position: relative;
+	width: 185px;
+	aspect-ratio: 1.0;
+	background-color: var(--hex-color);
+	clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	cursor: pointer;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hex1 {
+    background-color: var(--teal);
+}
+
+.hex2 {
+    background-color: var(--strawberry-red);
+}
+
+.hex3 {
+    background-color: var(--mandarine);
+}
+
+.hex4 {
+    background-color: var(--viola);
+}
+
+.hex5 {
+    background-color: var(--green);
+}
+
+.hex6 {
+    background-color: var(--silver);
+}
+
+.hex7 {
+    background-color: var(--teal);
+}
+
+.hex-content {
+	text-align: center;
+	padding: 10px;
+}
+
+.icon {
+	margin-bottom: 8px;
+}
+
+.label {
+	font-weight: 900;
+	font-size: 12px;
+	text-transform: uppercase;
+}
