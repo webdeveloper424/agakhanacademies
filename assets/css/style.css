@@ -243,7 +243,7 @@ p.green {
     margin-left: 40px;
 }
 
-.spotlights .swiper-button-next, .swiper-button-prev {
+.spotlights .swiper-button-next, .spotlights .swiper-button-prev {
     position: relative;
     width: 20px;
     height: 20px;
@@ -309,7 +309,7 @@ footer {
 }
 
 footer h5 {
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 25px;
 }
 
@@ -319,7 +319,7 @@ footer .nav-item {
 
 
 footer .nav-item .nav-link {
-    color: var(--white);
+    color: var(--black);
     padding: 0px;
 }
 
@@ -360,7 +360,7 @@ footer .btn-submit {
 
 .cpr-row p {
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 10px;
 }
 
@@ -372,7 +372,7 @@ footer .btn-submit {
 .cpr-row ul li {
     list-style: disc;
     margin: 0px 20px;
-    color: var(--white);
+    color: var(--black);
 }
 
 .cpr-row ul li:first-child {
