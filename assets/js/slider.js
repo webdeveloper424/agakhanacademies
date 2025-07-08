@@ -16,6 +16,24 @@ var swiper = new Swiper(".mySwiper", {
       }
 });
 
+var swiper = new Swiper(".newSwiper", {
+	slidesPerView: 1,
+	speed: 2000,
+	loop: true,
+	autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	},
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},
+	navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+});
+
 var swiper = new Swiper(".spotlights-swiper", {
 	slidesPerView: 1,
     spaceBetween: 15,

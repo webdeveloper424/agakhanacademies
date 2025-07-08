@@ -3,6 +3,10 @@
         padding-right: 0.75rem;
         padding-left: 0.75rem;
     }
+
+	.btn-menu {
+		margin: 0 0 0 0.75rem;
+	}
 }
 
 @media (max-width: 700px) {
@@ -200,15 +204,6 @@
 		padding: 0px;
 	}
 
-	.spotlights-header .nav {
-		margin-left: 0px;
-		margin-top: 15px;
-	}
-
-	.swiper-nav {
-		margin-top: 15px;
-	}
-
 	.slider .swiper-button-next:after, .slider .swiper-button-prev:after {
 		font-size: 32px;
 	}
@@ -221,6 +216,10 @@
 	.slider .swiper-button-prev, .swiper-rtl .swiper-button-next {
 		top: 40%;
 		font-weight: bold;
+	}
+
+	.slider .slider-content p {
+		max-width: 70%;
 	}
 
 } 
