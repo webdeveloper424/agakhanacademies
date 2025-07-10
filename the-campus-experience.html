@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Campus Experience - Aga Khan Academics</title>
+    <link rel="icon" href="assets/images/logo/favicon.png">
+	<link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendors/fontawsome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="menu" id="navbar_top">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container align-items-center justify-content-between">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo/aka-logo.png" class="img-fluid logo" alt="Logo">
+                    </a>
+
+                    <button class="btn menu-toggle px-2 pt-2 pb-0 d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                        
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="academies.html">Our Academies</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Dhaka</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hyderabad</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Maputo</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Mombasa</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="about-us.html" role="button" data-bs-toggle="dropdown">About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="our-network.html">Our Network</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="quick-facts.html">Quick Facts</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="work-with-us.html">Work With Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="cookie-policy.html">Cookie Policy</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="our-programme.html" role="button" data-bs-toggle="dropdown">Our Programme</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="international-baccalaureate.html">International Baccalaureate</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="service-learning.html">Service Learning</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="student-activities.html">Student Activities</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="the-campus-experience.html">The Campus Experience</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="international-exchange.html">International Exchanges</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="our-community.html" role="button" data-bs-toggle="dropdown">Our Community</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="development-centres.html">Development Centres</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="partnerships.html">Partnerships</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="alumni.html">Alumni</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="professional-development-for-teachers.html">Professional Development For Teachers </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="news.html" role="button" data-bs-toggle="dropdown">News</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="spotlights.html">Spotlights</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="videos.html">Videos</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="publications.html">Publications</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admissions.html">Admissions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="get-involved.html">Get Involved</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-globe pe-1"></i> EN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-menu nav-link" href="donate.html">Donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>            
+        </section>
+    </header>
+
+    <main>
+        <section class="breadcrumb-wrapper">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb custom-breadcrumb mb-0">
+                        <li class="breadcrumb-item active"><a href="our-programme.html" class="breadcrumb-link">Our Programme</a></li>
+                        <li class="breadcrumb-separator">></li>
+                        <li class="breadcrumb-item" aria-current="page">The Campus Experience</li>
+                    </ol>
+                </nav>
+            </div>  
+        </section> 
+
+        <section class="slide">
+            <img src="assets/images/slider/aku.png" class="img-fluid" alt="Slider">
+            <div class="slide-content">
+                <div class="container">
+                    <h5>State-of-the-art-facilities</h5>
+                    <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>The Campus Experience</h1>
+                        <p class="mb-0">Campus life enriches the students’ academic experience. It offers new activities, leadership opportunities and chances for interaction. While learning independence in some ways, students are supported to thrive emotionally, intellectually and physically.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <h2>An Inspirational Environment</h2>
+                        <p class="mb-0">Each campus aims to inspire its residents and visitors to learn, work, play and live to their full potential. Academy sites are chosen with care with campuses designed by renowned architects and purpose built to provide world-class facilities for all aspects of student life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="accordion" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Learning
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-content card-contentText minboxaccodingBox">
+                                                        <div class="card-text">Classrooms are designed to meet the needs of the students at each age. The vision of a joyous environment is clear in this AKA Maputo classroom</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-content card-contentText minboxaccodingBox">
+                                                        <div class="card-text">With spacious campuses, students and staff can always find somewhere to concentrate and work independently</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100"> <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-button collapsed" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            Playing
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse"data-bs-parent="#accordion">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-content card-contentText minboxaccodingBox">
+                                                        <div class="card-text">Classrooms are designed to meet the needs of the students at each age. The vision of a joyous environment is clear in this AKA Maputo classroom</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-content card-contentText minboxaccodingBox">
+                                                        <div class="card-text">With spacious campuses, students and staff can always find somewhere to concentrate and work independently</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100"> <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-button collapsed" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                            Leaving
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-content card-contentText minboxaccodingBox">
+                                                        <div class="card-text">Classrooms are designed to meet the needs of the students at each age. The vision of a joyous environment is clear in this AKA Maputo classroom</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-content card-contentText minboxaccodingBox">
+                                                        <div class="card-text">With spacious campuses, students and staff can always find somewhere to concentrate and work independently</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100"> <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                                <div class="card h-100">
+                                                    <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                                    <div class="card-text mt-3">With a teacher for every seven students, there is plenty of opportunity for one-to-one tuition</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section image-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Residential Life</h2>
+                        <p class="mb-0">In many ways, residential life teaches students to be independent. But the Academies soon become a second home. Each student has a dorm family of peers with whom to socialise, a dorm captain who acts as an older sibling, and a residential parent who monitors their wellbeing. With pastoral care a priority, students also have access to specialised counsellors, a well equipped health centre, and other adults to take an interest in them.</p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-1"></div>
+                        <div class="col-12 col-lg-5">
+                            <div class="card">
+                                <img src="assets/images/about/image1.png"  class="img-fluid" alt="">
+                                <div class="card-text mt-3">Students form a home away from home through the Academy’s residential programme</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <div class="card">
+                                <img src="assets/images/about/image1.png"  class="img-fluid" alt="">
+                                <div class="card-text mt-3">Students form a home away from home through the Academy’s residential programme</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>              
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <h2 class="text-center">Meet a dorm parent and two of her student family</h2>
+                        <p class="text-center mb-0">In many ways, residential life teaches students to be independent. But the Academies soon become a second home. Each student has a dorm family of peers with whom to socialise, a dorm captain who acts as an older sibling, and a residential parent who monitors their wellbeing. With pastoral care a priority, students also have access to specialised counsellors, a well equipped health centre, and other adults to take an interest in them.</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-md-12">
+                        <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                       <p>"Being a residential parent at the Aga Khan Academy Mombasa was my favourite thing to do during my time there. Every day was filled with loads of laughter, hugs and smiles from all students aged 10 to 18, regardless if they did not live in my residential block or were not a part of my assigned residential family. There are times throughout the experience where I felt more like an older sister to the students by providing them advice on school-related and non-school-related things, consoling them when they missed home, and just chatting about what was going on in our lives. There is really a strong sense of community throughout the residences that you immediately feel, especially during our Wednesday family dinners. When I am assigned for duty on the weekends, I feel the most connected to the residential students. We spend some time off-campus at the movie theatre, on a hiking trail, or the beach, but also on-campus when I am supervising the pool area or basketball court during our sports hour. I will also forever cherish the intimate moments I had with the residential students, especially laying outside on the grass in front of the residences on the weekends before dinner time with a few students. Overall, the residential programme makes you feel a part of a supportive family whether you're a student or a residential parent."  <Strong>- Anusha Lalani, (former) residential parent, AKA Mombasa</Strong></p>
+                       <p class="mb-0">"My time within the Aga Khan Academy Mombasa residences have truly been an emotional rollercoaster. I have laughed, cried and anything else you could possibly think of. Being in the Academy’s residential programme has really given me a sense of belonging. From waking up each day and seeing everyone helping each other in order not to be late for breakfast, to ordering food when it's someone's birthday, the residences has brought out the spirit of family in each and everyone of us and made us feel secure and important, just like home. There are so many different activities are prepared for us on the weekends in order for us to bond with each other. Some activities include pool parties, mall outings, movie nights, and so much more. Frankly, the residences at the Academy is just like my second home because of all the love we all share as part of one community." <Strong>Gloria Kamajugo, Grade 9, AKA Mombasa</Strong></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-md-12">
+                       <p>"As a new student to the Aga Khan Academy Mombasa, I was excited to be a residential student when I first came. I became a part of the best residential family a new student could ask for. My residential parent was so kind, loving and welcoming towards me and she guided me throughout the year. Being in the residences has given me an opportunity to become more independent and connect with a diverse community. My favourite part of the residential experience is the block bonding activities over the weekends. We would do activities such as sports, movie nights, pool parties, dance parties and more. These activities provided everyone with a time to hang out with each other and get to know one another better."<Strong> - Qaisara Yasin, Grade 10, AKA Mombasa</Strong></p>
+                       <p>"As a residential student for the past four years, I cannot express how rewarding it has been for me as an individual. From the caring and warm-hearted dorm parents to the fun-filled bonding events to keep us active and busy, the residential life truly reminds me of home. On the weekends, we have bonding events that usually differ. My personal favourite is when we go off-campus to the mall and get a chance to shop, eat and spend quality time together with people who are in other blocks. With pride, I can say that my residential life is reminiscent of being at home with my family. Being in the residential programme has helped me become more independent, responsible and most of all pluralistic. I really enjoy being around people who are from different backgrounds to form one big family. To be frank, the Academy is like my second home because of the hospitality and love received from the entire residential community."<Strong> - Arya Noor, Grade 9, AKA Mombasa</Strong></p>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="accordion" id="accordion2">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            A typical day on campus
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion2">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-8">
+                                                <h2>Dorm Prefect Duties at AKA Hyderabad</h2>
+                                                <p>I have had to hit the snooze button three times but it’s 7 am and the day starts. After freshening up, I go room to room to ensure that everyone is awake. This is part of my duty as a dorm prefect at the Aga Khan Academy Hyderabad. After getting dressed for school, I register my name and timings at the entrance of the dorm and leave the dorms after waving farewell to our security guard, Ms Anna. My friends and I proceed to the dining hall for breakfast, talking about today’s classes.</p>
+                                                <p>When school ends at 3.30 pm, I usually go for snacks in the Commons while talking about my day at school with my friends. I then go play volleyball, shower, drop off my clothes for laundry and head to the Commons for dinner around 6.50 pm. Once dinner is over, the dorm prefects and I rush to the kitchen to get the cookies the students in our dorms will have after study time at 7.30 pm, while also getting to taste a cupcake along the way! We quickly drop the cookies off at the dorms and go to the Commons for our own study time till 9.15 pm.</p>
+                                                <p>Being a Diploma Programme student and a Dorm Prefect has been quite challenging for me, especially in the initial months. I found myself running behind on revisions and learning course material. However, I overcame those challenges by going for afterschool academic support and finding a balance between it all.</p>
+                                            </div>
+                                            <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                                                <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                            </div>
+                                        </div>
+                                        <p>Time flies by and soon we head back to the dorms where we conduct the attendance for the night. Other dorm prefects and I distribute cookies. Everyone is talking and laughing at each other's jokes, making it very lively. Some of the residential students can feel homesick at times, which is understandable. We try to make sure they develop a sense of belonging to the campus and the residential community through different activities, like sports, music and art.</p>
+                                        <p>After attendance, I go to my room to call my parents and work on any assignments or work I might have left to do before it’s lights out at 10.30 pm. I would say my favourite part about being a Dorm Prefect is the ability to hear the stories of others, which has made me more empathetic and grateful. I believe a responsible position is not about testing your leadership skills, but it’s more about your ability to listen and know your community. I have always been grateful for the residential life due to the sense of community and holistic growth that it has offered me in the past three years.</p> 
+                                        <p class="mb-0 fw-bold">Aman Gangani, Diploma Programme 2, AKA Hyderabad</p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-button collapsed" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            A Day at the AKA Mombasa
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse"data-bs-parent="#accordion2">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-8">
+                                                <h2>Dorm Prefect Duties at AKA Hyderabad</h2>
+                                                <p>I have had to hit the snooze button three times but it’s 7 am and the day starts. After freshening up, I go room to room to ensure that everyone is awake. This is part of my duty as a dorm prefect at the Aga Khan Academy Hyderabad. After getting dressed for school, I register my name and timings at the entrance of the dorm and leave the dorms after waving farewell to our security guard, Ms Anna. My friends and I proceed to the dining hall for breakfast, talking about today’s classes.</p>
+                                                <p>When school ends at 3.30 pm, I usually go for snacks in the Commons while talking about my day at school with my friends. I then go play volleyball, shower, drop off my clothes for laundry and head to the Commons for dinner around 6.50 pm. Once dinner is over, the dorm prefects and I rush to the kitchen to get the cookies the students in our dorms will have after study time at 7.30 pm, while also getting to taste a cupcake along the way! We quickly drop the cookies off at the dorms and go to the Commons for our own study time till 9.15 pm.</p>
+                                                <p>Being a Diploma Programme student and a Dorm Prefect has been quite challenging for me, especially in the initial months. I found myself running behind on revisions and learning course material. However, I overcame those challenges by going for afterschool academic support and finding a balance between it all.</p>
+                                            </div>
+                                            <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                                                <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                                            </div>
+                                        </div>
+                                        <p>Time flies by and soon we head back to the dorms where we conduct the attendance for the night. Other dorm prefects and I distribute cookies. Everyone is talking and laughing at each other's jokes, making it very lively. Some of the residential students can feel homesick at times, which is understandable. We try to make sure they develop a sense of belonging to the campus and the residential community through different activities, like sports, music and art.</p>
+                                        <p>After attendance, I go to my room to call my parents and work on any assignments or work I might have left to do before it’s lights out at 10.30 pm. I would say my favourite part about being a Dorm Prefect is the ability to hear the stories of others, which has made me more empathetic and grateful. I believe a responsible position is not about testing your leadership skills, but it’s more about your ability to listen and know your community. I have always been grateful for the residential life due to the sense of community and holistic growth that it has offered me in the past three years.</p> 
+                                        <p class="mb-0 fw-bold">Aman Gangani, Diploma Programme 2, AKA Hyderabad</p>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+                    <a href="index.html">
+                        <img src="assets/images/logo/aka-white-logo.png" class="footer-logo" alt="AKA">
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                    <h5>Our Academies</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="dhaka.html">Dhaka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hyderabad.html">Hyderabad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="maputo.html">Maputo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mombasa.html">Mombasa</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                    <h5>Our Network</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aga Khan Development Network</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aga Khan Education Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">His Highness the Agha Khan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="quick-facts.html">Quick Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work-with-us.html">Work With Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donate.html">Donate Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5>Follow Us</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i>Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i>X</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i>Linkedin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i>Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i>YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5 class="newsletter">Sign Up To Get The Latest News From The Aga Khan Schools</h5>
+                    <input type="email" id="email" class="form-control" placeholder="Enter Email">
+                    <button type="button" class="btn btn-success btn-submit">Sign Up</button>
+                </div>
+            </div>
+            <div class="row cpr-row">
+                <div class="col-12">
+                    <p>Copyrights @ 2025 Agha Khan Foundation.</p>
+                    <p>The Aga Khan Academies is part of the Aga Khan Education Services. An agency of the Aga Khan Development Network. All rights reserved.</p>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="terms-and-conditions.html">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="privacy-policy.html">Privacy & Policy</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="cookie-policy.html">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

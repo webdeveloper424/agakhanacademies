@@ -222,4 +222,13 @@
 		max-width: 70%;
 	}
 
-} 
+}
+
+@media (min-width: 1200px) {
+    ul.dropdown-menu {
+		border-radius: 0px;
+		border: 1px solid transparent;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		margin-left: 10px;
+	}
+}

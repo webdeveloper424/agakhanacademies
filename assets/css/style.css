@@ -77,18 +77,18 @@ h1, h2, h3, h4, h5, p {
     position: relative;
 }
 
-.banner-slider .swiper-button-next, .banner-slider .swiper-rtl .swiper-button-prev {
-    right: 70px;
-    left: auto;
-    color: #ccc;
-    top: 575px;
+.banner-slider .swiper-controls {
+    position: absolute;
+    bottom: 30px;
+    right: 300px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
 }
 
-.banner-slider .swiper-button-prev, .banner-slider .swiper-rtl .swiper-button-next {
-    left: auto;
-    right: 245px;
+.banner-slider .swiper-button-next, .banner-slider .swiper-button-prev {
+    position: static;
     color: #ccc;
-    top: 575px;
 }
 
 .banner-slider .swiper-button-next:after, .banner-slider .swiper-button-prev:after {
@@ -96,10 +96,10 @@ h1, h2, h3, h4, h5, p {
 }
 
 .banner-slider .swiper-pagination {
-    position: absolute;
-    text-align: end;
-    padding-right: 100px !important;
-    bottom: 32px;
+    position: static;
+    display: flex;
+    gap: 5px;
+    width: auto;
 }
 
 .banner-slider  .slider-content {
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, p {
     padding: 40px 0px;
 }
 
-#accordion .panel {
+.accordion .panel {
     border: none;
     border-radius: 5px;
     box-shadow: none;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, p {
     background: transparent;
 }
 
-#accordion .panel-heading {
+.accordion .panel-heading {
     padding: 0;
     border: none;
     border-radius: 5px;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, p {
     position: relative;
 }
 
-#accordion .accordion-button {
+.accordion .accordion-button {
     display: block;
     padding: 20px 30px;
     margin: 0;
@@ -169,14 +169,14 @@ h1, h2, h3, h4, h5, p {
     position: relative;
 }
 
-#accordion .accordion-button:not(.collapsed) {
+.accordion .accordion-button:not(.collapsed) {
     color: var(--white);
     background-color: var(--green);
     border-radius: 10px 10px 0px 0px;
 }
 
-#accordion .panel-title a:before,
-#accordion .panel-title a.collapsed:before {
+.accordion .panel-title a:before,
+.accordion .panel-title a.collapsed:before {
     content: "\f139";
     font-family: "Font Awesome 6 Pro";
     width: 30px;
@@ -193,30 +193,57 @@ h1, h2, h3, h4, h5, p {
     transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);
 }
 
-#accordion .panel-title a.collapsed:before {
+.accordion .panel-title a.collapsed:before {
     color: var(--black);
     transform: rotate(180deg);
 }
 
-#accordion .panel-body {
+.accordion .panel-body {
     padding: 20px 30px;
     background: var(--white);
     font-size: 16px;
     color: var(--black);
-    line-height: 28px;
-    letter-spacing: 1px;
     border-bottom: 1px solid #495057;
     border-left: 1px solid #495057;
     border-right: 1px solid #495057;
-    border-radius: 10px;
-}
-
-#accordion .show .panel-body {
     border-radius: 0px 0px 10px 10px;
 }
 
-#accordion .panel-title {
+.accordion .show .panel-body {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.accordion .panel-title {
     margin-bottom: 0px;
+}
+
+.btn-green {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.btn-green:hover {
+    background-color: var(--white);
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
+.spotlights .card {
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.spotlights .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.spotlights .card-body {
+    padding: 20px 40px;
+}
+
+.accordion .card {
+    border: 1px solid transparent;
 }
 
 /* Start Header */
@@ -262,6 +289,19 @@ header .container {
 .dropdown>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
+}
+
+header .dropdown-item:focus, header .dropdown-item:hover {
+    color: var(--green)
+}
+
+header .dropdown-item {
+    padding: 1rem;
+}
+
+header .dropdown-item.active, header .dropdown-item:active {
+    background-color: var(--green);
+    color: var(--white);
 }
 
 /* End Header */
@@ -387,12 +427,13 @@ p.green {
 .spotlights {
     background-color: var(--bg2);
     padding: 50px 0px;
+    margin-bottom: 0px !important;
 }
 
 .spotlights-header {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
@@ -625,11 +666,38 @@ p.green {
     margin-bottom: 45px;
 }
 
-.btn-green {
-    background-color: var(--green);
+/* End Contact Us */
+
+/* Start The Campus Experience */
+
+.image-section {
+    padding: 50px 0px;
+    background-color: var(--bg2);
 }
 
-/* End Contact Us */
+.image-section .card {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+/* End The Campus Experience */
+
+/* Start International Exchange */
+
+.gallery {
+    padding: 50px 0px;
+    background-color: var(--bg2);
+}
+
+.gallery .card {
+    border: 1px solid transparent;
+}
+
+.gallery .card-body {
+    padding: 20px 40px;
+}
+
+/* End International Exchange */
 
 /* Start Footer */
 

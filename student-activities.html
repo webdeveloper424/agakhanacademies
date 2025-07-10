@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Activities - Aga Khan Academics</title>
+    <link rel="icon" href="assets/images/logo/favicon.png">
+	<link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendors/fontawsome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="menu" id="navbar_top">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container align-items-center justify-content-between">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo/aka-logo.png" class="img-fluid logo" alt="Logo">
+                    </a>
+
+                    <button class="btn menu-toggle px-2 pt-2 pb-0 d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                        
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="academies.html">Our Academies</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Dhaka</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hyderabad</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Maputo</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Mombasa</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="about-us.html" role="button" data-bs-toggle="dropdown">About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="our-network.html">Our Network</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="quick-facts.html">Quick Facts</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="work-with-us.html">Work With Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="cookie-policy.html">Cookie Policy</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="our-programme.html" role="button" data-bs-toggle="dropdown">Our Programme</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="international-baccalaureate.html">International Baccalaureate</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="service-learning.html">Service Learning</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="student-activities.html">Student Activities</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="the-campus-experience.html">The Campus Experience</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="international-exchange.html">International Exchanges</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="our-community.html" role="button" data-bs-toggle="dropdown">Our Community</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="development-centres.html">Development Centres</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="partnerships.html">Partnerships</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="alumni.html">Alumni</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="professional-development-for-teachers.html">Professional Development For Teachers </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="news.html" role="button" data-bs-toggle="dropdown">News</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="spotlights.html">Spotlights</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="videos.html">Videos</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="publications.html">Publications</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admissions.html">Admissions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="get-involved.html">Get Involved</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-globe pe-1"></i> EN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-menu nav-link" href="donate.html">Donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>            
+        </section>
+    </header>
+
+    <main>
+        <section class="breadcrumb-wrapper">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb custom-breadcrumb mb-0">
+                        <li class="breadcrumb-item active"><a href="our-programme.html" class="breadcrumb-link">Our Programme</a></li>
+                        <li class="breadcrumb-separator">></li>
+                        <li class="breadcrumb-item" aria-current="page">Student Activities</li>
+                    </ol>
+                </nav>
+            </div>  
+        </section> 
+
+        <section class="slide">
+            <img src="assets/images/slider/aku.png" class="img-fluid" alt="Slider">
+            <div class="slide-content">
+                <div class="container">
+                    <h5>State-of-the-art-facilities</h5>
+                    <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Student Activities</h1>
+                        <p class="mb-0">The Academies provide a holistic education, giving students the chance to experience new activities, deepen their expertise and take on new responsibilities in a variety of settings beyond the classroom. Sports, creative pursuits and community learning projects all help students to grow into rounded young adults and apply their gifts and skills to make an impact.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section spotlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="spotlights-header">
+                            <h2 class="mb-0">Creative Expression</h2>
+                            <div class="d-flex ms-auto me-0 swiper-nav">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Through theatre, art, music and drama, students learn to think creatively and express their visions, develop both their skills and their self-awareness, achieve their own goals and work together.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="swiper images-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <h2>Public Speaking Through Model United Nations</h2>
+                        <p>“Being part of the Aga Khan Academy Mombasa’s Model United Nations (MUN) enrichment has been such a rewarding and eye-opening experience for me. If there is one thing I have learnt, it is that if you put your mind to something and truly believe in yourself, anything is possible. I can say with confidence that the person I am today is largely thanks to the Academy’s MUN enrichment.</p>
+                        <p>Participating in many MUN conferences since Year 7 has given me the opportunity to interact with diverse individuals, thus allowing me to broaden my perspective. I have also developed great public speaking and debating skills. This led me to being recognised as the Best Speaker in the Human Rights Committee at the 38th East African Model United Nations in Nairobi. In addition, serving as the Secretary General of MUN at the Academy has taught me great leadership skills, teamwork, time management and strategic thinking. The support of our teachers, all of whom I am thankful for, has made this a very enriching experience.</p>
+                        <p>Every skill I have learnt as a result of being part of MUN has contributed to me being an all rounded individual, which is relevant in every area of my life. Speaking in public has boosted my confidence and enhanced my communication skills. I am now able to articulate my points effectively, and share my thoughts and voice my opinion on matters I am really passionate about.”</p>
+                        <p class="mb-0 fw-bold">Mahek Charania, DP1 student, AKA Hyderabad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Organizing TEDX</h2>
+                        <p>“Being involved in the Aga Khan Academy Hyderabad’s enrichment programmes have helped me stand out as a student and as an individual. There are multiple opportunities offered to all students through these programmes, such as TEDx, which helped me unleash my true potential. I was the co-organiser for the 2019 TEDxYouth@AKAHyderabad and it is just one of the many things that I am involved in at the Academy. The TEDx community at AKA Hyderabad is more than a group of students and teachers. We work for months together and grow into a small family of our own, and being a part of this team has helped me grow in so many ways.</p>
+                        <p>There were so many challenges thrown our way for this year’s event due to COVID-19. However, we learned to adapt to the hardships, overcome the challenges, break barriers and think far outside the box. This experience has enhanced all of my skills, made me a ferocious leader, an analytical thinker, and a student who is hungry for success and undertaking new challenges every day. I have had the honour of learning under the guidance of our TEDx teachers. These mentors, along with the entire TEDx family, have played a significant role in making me the responsible, independent, risk-taking, rational and hardworking citizen of the Academy that I am today. The Academy has helped me make notable accomplishments and stand out of the ordinary at the mere age of 17! I am very much looking forward to the next adventure I will take.”</p>
+                        <p class="fw-bold mb-0"></p>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section spotlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="spotlights-header">
+                            <h2 class="mb-0">Action</h2>
+                            <div class="d-flex ms-auto me-0 swiper-nav">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <p class="mb-0">The Academies encourage a healthy lifestyle and provide impressive sports facilities. Students can try everything from diving to squash, with team, solo, competitive and fun sports on offer. Alongside the physical challenges, they learn values such as good sportsmanship, determination, teamwork and ethical behaviour.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="swiper images-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/about/image1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="mb-0">Drama students from Hyderabad take second place in the Srujan Theatre Festival’s inter-school theatre competition with their performance of Charandas Chor by Habib Tanvir</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                        <div class="col-12 col-lg-6">
+                         <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <h2>My Basketball Family</h2>
+                        <p>“If someone told me I would be a part of the Aga Khan Academy Mombasa basketball team four years ago, I would have laughed. But reflecting on that statement now, I think to myself that my life would feel sort of incomplete without basketball in it.</p>
+                        <p>Growing up as a competitive swimmer, the shift into the world of basketball was anything but easy. Each and every practice chipped away my pride and forced me to relearn myself as an athlete and as a person. Fortunately, I have supportive coaches and teammates who hold me accountable and keep pushing me to reach the potential they see in me. I am beyond lucky to be a part of a team that makes me feel like I’m a part of a family on and off of the basketball court.</p>
+                        <p>I am also grateful for the facilities at the Academy that have allowed me to work on my craft, blow off some steam when I needed to or simply just play a game against a teammate. Each one of these things, along with the unity and lessons of teamwork from my coaches, continuously strengthens my love of basketball as a sport.</p>
+                        <p>Basketball has also helped me develop skills that I can use in my academic and personal life. It has enabled me to see the importance of relationships, communication and strategy. I now find it easier to think on my feet, plan and communicate more effectively, which in turn has helped me to become well rounded in all aspects of my life.”</p> 
+                        <p class="mb-0 fw-bold">Joy Alendi, Year 10, Aga Khan Academy Mombasa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="section spotlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Service Learning</h2>
+                        <p>The Academies encourage students to develop their understanding of humanity and civil society. Through collaborating with community groups on sustainable projects, they gain an appreciation for human rights, human dignity, and of how their actions impact the world around them</p>
+                        <a href="" class="link">Read More</a>
+                    </div>
+                  
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                        <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <h2>Teaching English in a Local School</h2>
+                        <p>Every Saturday, my partner Tanya and I worked together to teach six to eight students at a local school reading, writing, speaking and listening in English. We had a girl in the class that could translate Portuguese to English for us and it was easier to communicate and teach the others through her help. We used games to teach them some basics such as greetings, different names of vegetables and fruits and some verbs.</p>
+                        <p>The students wanted to have a debate between two groups in order to communicate better and listen to other points of view. We also had games such as guessing words in English. Sometimes the students would be the teachers for a minute and explain to us something new that they had learnt. The students were so friendly and they used to teach us words in Portuguese. They always understood that we as helpers did not know Portuguese and they were always encouraging us to learn more. I really loved that experience of community service and I feel like I want to meet the students again soon!</p>
+                        <p class="fw-bold mb-0">Maputo: name and year?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+                    <a href="index.html">
+                        <img src="assets/images/logo/aka-white-logo.png" class="footer-logo" alt="AKA">
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                    <h5>Our Academies</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="dhaka.html">Dhaka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hyderabad.html">Hyderabad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="maputo.html">Maputo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mombasa.html">Mombasa</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                    <h5>Our Network</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aga Khan Development Network</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aga Khan Education Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">His Highness the Agha Khan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="quick-facts.html">Quick Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work-with-us.html">Work With Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donate.html">Donate Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5>Follow Us</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i>Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i>X</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i>Linkedin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i>Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i>YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5 class="newsletter">Sign Up To Get The Latest News From The Aga Khan Schools</h5>
+                    <input type="email" id="email" class="form-control" placeholder="Enter Email">
+                    <button type="button" class="btn btn-success btn-submit">Sign Up</button>
+                </div>
+            </div>
+            <div class="row cpr-row">
+                <div class="col-12">
+                    <p>Copyrights @ 2025 Agha Khan Foundation.</p>
+                    <p>The Aga Khan Academies is part of the Aga Khan Education Services. An agency of the Aga Khan Development Network. All rights reserved.</p>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="terms-and-conditions.html">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="privacy-policy.html">Privacy & Policy</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="cookie-policy.html">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

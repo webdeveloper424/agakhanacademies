@@ -62,3 +62,33 @@ var swiper = new Swiper(".spotlights-swiper", {
         },
     },
 });
+
+var swiper = new Swiper(".images-swiper", {
+	slidesPerView: 1,
+    spaceBetween: 15,
+	speed: 2000,
+	loop: true,
+	autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	},
+	navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+	breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 15,
+        },
+    },
+});
+
