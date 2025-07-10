@@ -699,6 +699,20 @@ p.green {
 
 /* End International Exchange */
 
+/* Start Admissions */
+
+
+/* End Admissions */
+
+.admissions {
+    background-color: var(--bg2);
+    padding: 50px 0px;
+}
+
+.inner-section {
+    margin-top: 100px;
+}
+
 /* Start Footer */
 
 footer {
