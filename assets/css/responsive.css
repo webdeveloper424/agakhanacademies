@@ -63,6 +63,46 @@
 
 }
 
+@media (max-width: 991px) {
+	.border-bottom-green {
+		border-bottom: 1px solid var(--green);
+		padding-bottom: 30px;
+	}
+
+	.border-right-green {
+		border-right: 1px solid transparent;
+		padding-right: 0px;
+	}
+
+	.border-top-green {
+		padding-top: 30px;
+	}
+
+	.border-left-green {
+		padding-left: 0px;
+	}
+
+	.search {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.filter {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.news-left-content, .spotlights-left-content {
+		width: 65%;
+	}
+
+	.news-right-content, .spotlights-right-content {
+		width: 35%;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px) { 
 
 	header .container {

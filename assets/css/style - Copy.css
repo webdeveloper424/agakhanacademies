@@ -699,19 +699,7 @@ p.green {
 
 /* End International Exchange */
 
-/* Start Admissions */
-
-.admissions {
-    background-color: var(--bg2);
-    padding: 50px 0px;
-}
-
-.inner-section {
-    margin-top: 100px;
-}
-
-/* End Admissions */
-
+<<<<<<< HEAD
 /* Start News */
 
 .featured-news img, .featured-news p {
@@ -929,6 +917,21 @@ p.green {
 }
 
 /* End Spotlights */
+
+/* Start Admissions */
+
+.admissions {
+    background-color: var(--bg2);
+    padding: 50px 0px;
+}
+
+.inner-section {
+    margin-top: 100px;
+}
+
+
+/* End Admissions */
+
 
 /* Start Footer */
 

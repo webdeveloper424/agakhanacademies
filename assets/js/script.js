@@ -9,41 +9,39 @@ document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
 });
 
 $(function() {
-    // Get current page filename
-    var currentPage = window.location.pathname.split("/").pop() || "index.html";
+    var path = window.location.pathname;
+    var page = path.substring(path.lastIndexOf("/") + 1) || "index.html";
 
-    // First pass: clear existing active
     $(".navbar-nav .nav-link, .navbar-nav .dropdown-item").removeClass("active");
 
-    // Flag to store which dropdown parents should be active
-    var activeDropdowns = new Set();
+    $(".navbar-nav .dropdown").each(function() {
+    var $dropdown = $(this);
+    var parentLink = $dropdown.children(".nav-link");
+    var childItems = $dropdown.find(".dropdown-item");
+    var foundActive = false;
 
-    // Match all dropdown items first
-    $(".navbar-nav .dropdown-item").each(function() {
+    childItems.each(function() {
         var href = $(this).attr("href");
-        if (href && href === currentPage) {
+        if (href && href === page) {
         $(this).addClass("active");
-        // Mark its parent dropdown as active too
-        var parentDropdown = $(this).closest(".dropdown");
-        if (parentDropdown.length) {
-            activeDropdowns.add(parentDropdown[0]);
-        }
+        foundActive = true;
         }
     });
 
-    // Handle top-level nav-links
-    $(".navbar-nav .nav-link").each(function() {
-        var href = $(this).attr("href");
-        var isDropdownToggle = $(this).hasClass("dropdown-toggle");
-        var parentDropdown = $(this).closest(".dropdown")[0];
+    if (foundActive) {
+        parentLink.addClass("active");
+    }
 
-        // Direct match with nav-link
-        if (href && (href === currentPage || (href === "index.html" && currentPage === ""))) {
+    var parentHref = parentLink.attr("href");
+    if (parentHref && parentHref === page) {
+        parentLink.addClass("active");
+    }
+    });
+
+    $(".navbar-nav > .nav-item > .nav-link").each(function() {
+    var href = $(this).attr("href");
+    if (href && href === page) {
         $(this).addClass("active");
-        }
-        // Or parent of active dropdown-item
-        else if (isDropdownToggle && activeDropdowns.has(parentDropdown)) {
-        $(this).addClass("active");
-        }
+    }
     });
 });
