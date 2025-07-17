@@ -930,6 +930,76 @@ p.green {
 
 /* End Spotlights */
 
+/* Start Our Community */
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+.profile-section {
+    background-color: var(--bg2);
+    padding: 60px 0;
+}
+
+.profile-icon {
+    width: 250px;
+    height: 250px;
+    background-color: var(--green);
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+.profile-icon i {
+    font-size: 65px;
+    color: var(--white);
+    text-align: center;
+    padding: 97px;
+}
+
+.circle-pdcs {
+    background-color: var(--viola);
+}
+
+.circle-our-partners {
+    background-color: var(--silver);
+}
+
+.circle-alumni {
+    background-color: var(--mandarine);
+}
+
+/* End Our Community */
+
+/* Start Alumni */
+
+.keep-touch {
+    background-color: var(--bg2);
+    padding: 60px 0;
+}
+
+.circle-facebook {
+    background-color: var(--silver);
+}
+
+.circle-instagram {
+    background-color: var(--mandarine);
+}
+
+.circle-linkedin {
+    background-color: var(--strawberry-red);
+}
+
+.circle-alumni-1 {
+    background-color: var(--teal);
+}
+
+.partners img {
+    margin-bottom: 30px;
+}
+
+/* End Alumni */
+
 /* Start Footer */
 
 footer {

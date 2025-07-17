@@ -101,6 +101,10 @@
 	.news-right-content, .spotlights-right-content {
 		width: 35%;
 	}
+
+	.border-right {
+		border-right: 1px solid var(--black);
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) { 
