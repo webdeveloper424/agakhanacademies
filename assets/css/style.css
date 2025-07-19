@@ -228,6 +228,17 @@ h1, h2, h3, h4, h5, p {
     border: 1px solid var(--green);
 }
 
+.btn-gray {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.btn-gray:hover {
+    background-color: var(--white);
+    color: var(--gray);
+    border: 1px solid var(--gray);
+}
+
 .spotlights .card {
     border-radius: 10px;
     border: 1px solid transparent;
@@ -278,8 +289,14 @@ header .container {
     border: 2px solid var(--green);
     border-radius: 15px;
     text-transform: uppercase;
-    color: var(--green);
+    color: var(--green) !important;
     margin: 0 0.75rem;
+}
+
+.btn-menu:hover {
+    border: 2px solid var(--green);
+    color: var(--white) !important;
+    background-color: var(--green);
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -529,8 +546,14 @@ p.green {
     text-transform: uppercase;
     color: var(--green);
     text-decoration: none;
-    padding: 12px 15px;
+    padding: 10px 15px;
     margin-top: 40px;
+}
+
+.view-link:hover {
+    border: 2px solid var(--green);
+    color: var(--white);
+    background-color: var(--green);
 }
 
 /* End Home */
@@ -711,6 +734,34 @@ p.green {
 }
 
 /* End Admissions */
+
+/* Start Professional Development for Teachers */
+
+.circle-presentation {
+    background-color: var(--viola);
+}
+
+.circle-teacher-notes {
+    background-color: var(--silver);
+}
+
+.resources a {
+    color: var(--black);
+}
+
+.circle-planner {
+    background-color: var(--teal);
+}
+
+.circle-materials {
+    background-color: var(--strawberry-red);
+}
+
+.circle-slides {
+    background-color: var(--mandarine);
+}
+
+/* End Professional Development for Teachers */
 
 /* Start News */
 

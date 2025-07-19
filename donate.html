@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Aga Khan Academics</title>
+    <link rel="icon" href="assets/images/logo/favicon.png">
+	<link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendors/fontawsome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="menu" id="navbar_top">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container align-items-center justify-content-between">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo/aka-logo.png" class="img-fluid logo" alt="Logo">
+                    </a>
+
+                    <button class="btn menu-toggle px-2 pt-2 pb-0 d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                        
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="academies.html">Our Academies</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Dhaka</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hyderabad</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Maputo</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Mombasa</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="about-us.html" role="button" data-bs-toggle="dropdown">About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="our-network.html">Our Network</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="quick-facts.html">Quick Facts</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="work-with-us.html">Work With Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="cookie-policy.html">Cookie Policy</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="our-programme.html" role="button" data-bs-toggle="dropdown">Our Programme</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="international-baccalaureate.html">International Baccalaureate</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="service-learning.html">Service Learning</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="student-activities.html">Student Activities</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="the-campus-experience.html">The Campus Experience</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="international-exchange.html">International Exchanges</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="our-community.html" role="button" data-bs-toggle="dropdown">Our Community</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="development-centres.html">Development Centres</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="partnerships.html">Partnerships</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="alumni.html">Alumni</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="professional-development-for-teachers.html">Professional Development For Teachers </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="news.html" role="button" data-bs-toggle="dropdown">News</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="spotlights.html">Spotlights</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="videos.html">Videos</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="publications.html">Publications</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admissions.html">Admissions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="get-involved.html">Get Involved</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-globe pe-1"></i> EN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-menu nav-link" href="donate.html">Donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>            
+        </section>
+    </header>
+
+    <main>
+        <section class="banner-slider">
+            <div class="swiper newSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/slider/aku.png" class="img-fluid" alt="Slider">
+                        <div class="slider-content">
+                            <div class="container">
+                                <h5>State-of-the-art-facilities</h5>
+                                <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/slider/aku.png" class="img-fluid" alt="Slider">
+                        <div class="slider-content">
+                            <div class="container">
+                                <h5>State-of-the-art-facilities</h5>
+                                <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/slider/aku.png" class="img-fluid" alt="Slider">
+                        <div class="slider-content">
+                            <div class="container">
+                                <h5>State-of-the-art-facilities</h5>
+                                <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/slider/aku.png" class="img-fluid" alt="Slider">
+                        <div class="slider-content">
+                            <div class="container">
+                                <h5>State-of-the-art-facilities</h5>
+                                <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-controls">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Why Donate?</h1>
+                        <p class="mb-0">Financial support from our donors gives exceptional students a world-class education, whatever their background. But transforming the life of one child and their family is just the start. Our first alumni have already graduated from top universities and are putting their talents, ethics and experience to work for communities around the world.</p>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center mt-5">
+                    <div class="col-lg-8">
+                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/oNUY0894eic?si=ljJEVxCjeoSxRqzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>What will my support achieve?</h1>
+                        <p>By supporting the Aga Khan Academies, you become part of something bigger than a school. Sharing the values of its parent institution, the AKDN, the Academies give opportunities to the less fortunate, regardless of their faith or origin. You will be helping to:</p>
+                        <ul>
+                            <li>Catalyse human-centred sustainable development across countries, supporting nations in building a resilient civil society.</li>
+                            <li>Raise children to be ethical and educated leaders with local roots and an international outlook.</li>
+                            <li>Create employment - with over 380 staff, mainly local, currently working at four academies.</li>
+                            <li>Train teachers and school leaders in the local community to provide the best possible learning experiences for thousands of children in regions around each school.</li>
+                        </ul>
+                        <p>Through the Annual Scholarship Fund, your donation will change the life of a child - and eventually, their community.</p>
+                        <p class="mb-0">Over the coming decades, a network of Academies will open across three continents, bringing an AKA education to 14,000 children at a time and training hundreds more teachers. Please join this transformational project and make a real difference to society.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section quote">
+            <div class="container">
+                <div class="row">   
+                    <div class="col-12">
+                        <h5 class="text-center">"The Aga Khan Academies aim to create ethical leaders with a strong sense of civic responsibility who will go on to the best universities in the world, pursue careers of their choice and…become leaders in the governments and the institutions of civil society in their own countries, in international organisations and in all those institutions, academic, economic and artistic that create positive change in our world."</h5>
+                        <p class="text-center fw-bold">His Highness the Aga Khan, Foundation Ceremony of the Aga Khan Academy</p>
+                        <p class="text-center mb-0 fw-bold">Mombasa, December 2003</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h2>How have donors made a difference?</h2>
+                        <p><strong>Maxwin Ojwang</strong> is one such student. Maxwin was one of 82 students in his class at Maweni primary school on the North Coast near Kongowea market, Mombasa. His father had recently lost his job and his teachers feared that he would drop out of school. He lived with his brothers in two rooms in part of a house shared by several families in the Kongowea slum. He was amongst the first eight girls and boys selected in 2009 under the Talent Identification programme, funded by donations. Six and a half years later, at his graduation ceremony, he received the Aga Khan Academy Award of Excellence. He earned a full Mastercard Scholarship to study engineering at the University of Toronto, and has since graduated. He is committed to returning to Kenya to help bring improvements to his home community and country.</p>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                         <img src="assets/images/about/image.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <h2>How have donors made a difference?</h2>
+                        <p><strong>Johnson Monari</strong>, one of the top graduates in education from the University of Nairobi, participated in the competitive teacher-training programme at the Aga Khan Academy in Mombasa. He is one of six young teachers who were picked from a pool of high performing teacher education graduates in various Kenyan universities to undergo 18 months of rigorous advanced professional learning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>How can I donate?</h2>
+                        <p>To donate, please visit the "donate now" section to learn how you can donate depending on your country of residence.</p>
+                        <p>If you have any questions or need any help with your donation, please contact us @ (email address)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <button type="submit" class="btn btn-gray w-100">Donate Now <i class="fa-solid fa-arrow-right ps-2"></i></button>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 mt-3 mt-lg-0">
+                        <button type="submit" class="btn btn-green w-100">Email Us <i class="fa-solid fa-arrow-right ps-2"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section class="section spotlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="spotlights-header">
+                            <h2 class="mb-0">Spotlights</h2>
+                            <div class="d-flex ms-auto me-0 swiper-nav">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper spotlights-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/spotlights/spotlights-1.png" alt="Spotlights" class="img-fluid">
+                                        <div class="card-body">
+                                            <p class="spotlights-link">Sujana Veeramachaneni: Teacher, Assistant</p>
+                                            <p class="spotlights-content">At AKA Hyderabad, Sujana Veeramachaneni, holds more than her official titles of biology, teacher and Assistant Coordinator for the Diploma.</p>
+                                            <a class="spotlights-read-more" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/spotlights/spotlights-1.png" alt="Spotlights" class="img-fluid">
+                                        <div class="card-body">
+                                            <p class="spotlights-link">Sujana Veeramachaneni: Teacher, Assistant</p>
+                                            <p class="spotlights-content">At AKA Hyderabad, Sujana Veeramachaneni, holds more than her official titles of biology, teacher and Assistant Coordinator for the Diploma.</p>
+                                            <a class="spotlights-read-more" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/spotlights/spotlights-1.png" alt="Spotlights" class="img-fluid">
+                                        <div class="card-body">
+                                            <p class="spotlights-link">Sujana Veeramachaneni: Teacher, Assistant</p>
+                                            <p class="spotlights-content">At AKA Hyderabad, Sujana Veeramachaneni, holds more than her official titles of biology, teacher and Assistant Coordinator for the Diploma.</p>
+                                            <a class="spotlights-read-more" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="assets/images/spotlights/spotlights-1.png" alt="Spotlights" class="img-fluid">
+                                        <div class="card-body">
+                                            <p class="spotlights-link">Sujana Veeramachaneni: Teacher, Assistant</p>
+                                            <p class="spotlights-content">At AKA Hyderabad, Sujana Veeramachaneni, holds more than her official titles of biology, teacher and Assistant Coordinator for the Diploma.</p>
+                                            <a class="spotlights-read-more" href="#">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="#" class="view-link">View All</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+                    <a href="index.html">
+                        <img src="assets/images/logo/aka-white-logo.png" class="footer-logo" alt="AKA">
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                    <h5>Our Academies</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="dhaka.html">Dhaka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hyderabad.html">Hyderabad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="maputo.html">Maputo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mombasa.html">Mombasa</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                    <h5>Our Network</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aga Khan Development Network</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aga Khan Education Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">His Highness the Agha Khan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="quick-facts.html">Quick Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work-with-us.html">Work With Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donate.html">Donate Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5>Follow Us</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i>Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i>X</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i>Linkedin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i>Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i>YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                    <h5 class="newsletter">Sign Up To Get The Latest News From The Aga Khan Schools</h5>
+                    <input type="email" id="email" class="form-control" placeholder="Enter Email">
+                    <button type="button" class="btn btn-success btn-submit">Sign Up</button>
+                </div>
+            </div>
+            <div class="row cpr-row">
+                <div class="col-12">
+                    <p>Copyrights @ 2025 Agha Khan Foundation.</p>
+                    <p>The Aga Khan Academies is part of the Aga Khan Education Services. An agency of the Aga Khan Development Network. All rights reserved.</p>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="terms-and-conditions.html">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="privacy-policy.html">Privacy & Policy</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="cookie-policy.html">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
