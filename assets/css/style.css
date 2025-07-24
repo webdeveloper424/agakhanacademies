@@ -9,11 +9,16 @@
     --viola: #773DBD;
     --teal: #007580;
     --gray: #8E9093;
+    --facebook: #1877F2;
+    --x: #000000;
+    --instagram: #833AB4;
+    --youtube: #FF0000;
     --bg1: #F1F2F2;
     --bg2: #EBECEC;
     --bg3: #B7B7B7;
     --bg4: #EFEFEF;
     --bg5: #D9D9D9;
+    --bg6: #EBEBEB;
     --font-family: "Gotham";
 }
 
@@ -228,17 +233,6 @@ h1, h2, h3, h4, h5, p {
     border: 1px solid var(--green);
 }
 
-.btn-gray {
-    background-color: var(--gray);
-    color: var(--white);
-}
-
-.btn-gray:hover {
-    background-color: var(--white);
-    color: var(--gray);
-    border: 1px solid var(--gray);
-}
-
 .spotlights .card {
     border-radius: 10px;
     border: 1px solid transparent;
@@ -263,8 +257,22 @@ header .container {
     padding: 0px;
 }
 
-.navbar {
+header .navbar {
     padding: 30px 0px;
+}
+
+header .bottom-nav .navbar {
+    padding: 0px;
+}
+
+header .bottom-nav .navbar .nav-item {
+    padding: 0px 25px;
+}
+
+header .bottom-nav .navbar .nav-item .nav-link {
+    font-weight: 500;
+    color: var(--black);
+    padding: 0px;
 }
 
 .logo {
@@ -319,6 +327,11 @@ header .dropdown-item {
 header .dropdown-item.active, header .dropdown-item:active {
     background-color: var(--green);
     color: var(--white);
+}
+
+.bottom-nav {
+    background-color: var(--bg6);
+    padding: 30px 0px;
 }
 
 /* End Header */
@@ -546,14 +559,8 @@ p.green {
     text-transform: uppercase;
     color: var(--green);
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 12px 15px;
     margin-top: 40px;
-}
-
-.view-link:hover {
-    border: 2px solid var(--green);
-    color: var(--white);
-    background-color: var(--green);
 }
 
 /* End Home */
@@ -734,34 +741,6 @@ p.green {
 }
 
 /* End Admissions */
-
-/* Start Professional Development for Teachers */
-
-.circle-presentation {
-    background-color: var(--viola);
-}
-
-.circle-teacher-notes {
-    background-color: var(--silver);
-}
-
-.resources a {
-    color: var(--black);
-}
-
-.circle-planner {
-    background-color: var(--teal);
-}
-
-.circle-materials {
-    background-color: var(--strawberry-red);
-}
-
-.circle-slides {
-    background-color: var(--mandarine);
-}
-
-/* End Professional Development for Teachers */
 
 /* Start News */
 
@@ -1050,6 +1029,108 @@ ol {
 }
 
 /* End Alumni */
+
+/* Start Academies */
+
+.follow-us .container {
+    background-color: var(--light-green);
+    padding: 50px;
+}
+
+.follow-us i {
+    font-size: 36px;
+}
+
+.follow-us .fa-facebook {
+    color: var(--facebook);
+}
+
+.follow-us .fa-x-twitter {
+    color: var(--x);
+}
+
+.follow-us .fa-instagram {
+    color: var(--instagram);
+}
+
+.follow-us .fa-youtube {
+    color: var(--youtube);
+}
+
+/* End Academies */
+
+/* Start Dhaka */
+
+.dhaka-nav .navbar-nav .nav-item .nav-link.active {
+    color: var(--mandarine);
+}
+
+.dhaka-nav .navbar-nav .nav-item.dropdown .nav-link.active {
+    color: var(--green);
+}
+
+.events {
+    background-color: var(--bg2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.event-date {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.events-time {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.events-location {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.calendar select {
+    border: 2px solid var(--green);
+}
+
+/* End Dhaka */
+
+/* Start Hyderabad */
+
+.hyderabad-nav .navbar-nav .nav-item .nav-link.active {
+    color: var(--strawberry-red);
+}
+
+.hyderabad-nav .navbar-nav .nav-item.dropdown .nav-link.active {
+    color: var(--green);
+}
+
+/* End Hyderabad */
+
+/* Start Maputo */
+
+.maputo-nav .navbar-nav .nav-item .nav-link.active {
+    color: var(--teal);
+}
+
+.maputo-nav .navbar-nav .nav-item.dropdown .nav-link.active {
+    color: var(--green);
+}
+
+/* End Maputo */
+
+/* Start Mombasa */
+
+.mombasa-nav .navbar-nav .nav-item .nav-link.active {
+    color: var(--viola);
+}
+
+.mombasa-nav .navbar-nav .nav-item.dropdown .nav-link.active {
+    color: var(--green);
+}
+
+/* End Mombasa */
 
 /* Start Footer */
 
