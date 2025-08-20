@@ -644,6 +644,35 @@ p.green {
     border-right: 5px solid var(--green);
 }
 
+.quick-facts img {
+    padding-bottom: 10px;
+}
+
+.quick-facts a {
+    color: var(--black);
+    font-weight: bold;
+}
+
+.quick-facts-5 h3, .quick-facts-5 h5, .quick-facts-5 a {
+    color: var(--strawberry-red);
+    margin-bottom: 10px;
+}
+
+.quick-facts-6 h3, .quick-facts-6 h5, .quick-facts-6 a {
+    color: var(--mandarine);
+    margin-bottom: 10px;
+}
+
+.quick-facts-7 h3, .quick-facts-7 h5, .quick-facts-7 a {
+    color: var(--viola);
+    margin-bottom: 10px;
+}
+
+.quick-facts-8 h3, .quick-facts-8 h5, .quick-facts-8 a {
+    color: var(--teal);
+    margin-bottom: 10px;
+}
+
 /* End Quick Facts */
 
 /* Start Contact Us */
@@ -1029,6 +1058,34 @@ ol {
 }
 
 /* End Alumni */
+
+/* Start Development Centers */
+
+.resources a {
+    color: var(--black);
+}
+
+.circle-presentation {
+    background-color: var(--viola);
+}
+
+.circle-teacher-notes {
+    background-color: var(--silver);
+}
+
+.circle-planner {
+    background-color: var(--teal);
+}
+
+.circle-materials {
+    background-color: var(--strawberry-red);
+}
+
+.circle-slides {
+    background-color: var(--mandarine);
+}
+
+/* End Development Centers */
 
 /* Start Academies */
 
