@@ -15,7 +15,7 @@
 <body>
     <header>
         <section class="menu" id="navbar_top">
-            <nav class="navbar navbar-expand-xl">
+            <nav class="navbar navbar-expand-xl fixed-top">
                 <div class="container align-items-center justify-content-between">
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/images/logo/aka-logo.png" class="img-fluid logo" alt="Logo">
@@ -30,8 +30,8 @@
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body justify-content-center">
-                            <ul class="navbar-nav">
+                        <div class="offcanvas-body justify-content-between">
+                            <ul class="navbar-nav main-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
@@ -66,15 +66,6 @@
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="contact-us.html">Contact Us</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="cookie-policy.html">Cookie Policy</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -132,9 +123,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="admissions.html">Admissions</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="get-involved.html">Get Involved</a>
-                                </li>
+                            </ul>
+                            <ul class="navbar-nav gap-4">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><i class="fa-solid fa-globe pe-1"></i> EN</a>
                                 </li>
@@ -142,7 +132,7 @@
                                     <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="btn btn-menu nav-link" href="donate.html">Donate</a>
+                                    <button class="btn btn-menu nav-link" id="openForm">Donate</button>
                                 </li>
                             </ul>
                         </div>
@@ -949,7 +939,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 mt-4 mt-md-0">
                     <h5>Our Network</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -977,30 +967,28 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
-                    <h5>Follow Us</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i>Facebook</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i>X</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i>Linkedin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i>Instagram</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i>YouTube</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 mt-4 mt-xl-0">
                     <h5 class="newsletter">Sign Up To Get The Latest News From The Aga Khan Schools</h5>
                     <input type="email" id="email" class="form-control" placeholder="Enter Email">
                     <button type="button" class="btn btn-success btn-submit">Sign Up</button>
+                    <h5 class="mt-4">Follow Us</h5>
+                    <ul class="nav gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="row cpr-row">

@@ -15,7 +15,7 @@
 <body>
     <header>
         <section class="menu" id="navbar_top">
-            <nav class="navbar navbar-expand-xl">
+            <nav class="navbar navbar-expand-xl fixed-top">
                 <div class="container align-items-center justify-content-between">
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/images/logo/aka-logo.png" class="img-fluid logo" alt="Logo">
@@ -30,8 +30,8 @@
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body justify-content-center">
-                            <ul class="navbar-nav">
+                        <div class="offcanvas-body justify-content-between">
+                            <ul class="navbar-nav main-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
@@ -66,15 +66,6 @@
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="contact-us.html">Contact Us</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="cookie-policy.html">Cookie Policy</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -132,9 +123,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="admissions.html">Admissions</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="get-involved.html">Get Involved</a>
-                                </li>
+                            </ul>
+                            <ul class="navbar-nav gap-4">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><i class="fa-solid fa-globe pe-1"></i> EN</a>
                                 </li>
@@ -142,7 +132,7 @@
                                     <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="btn btn-menu nav-link" href="donate.html">Donate</a>
+                                    <button class="btn btn-menu nav-link" id="openForm">Donate</button>
                                 </li>
                             </ul>
                         </div>
@@ -180,7 +170,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h1>Our Network</h1>
-                        <p class="mb-0">The Aga Khan Academies network, which will stretch across Africa, Asia and the Middle East, offers high-calibre students a world-class IB education in a residential ina residential setting. We give children from all financial backgrounds the opportunity to study and thrive in a multicultural environment. They learn to work together and develop as thoughtful, ethical leaders ready to serve their communities.</p>
+                        <p class="mb-0">In 2000, His Late Highness Prince Karim Aga Khan IV initiated the establishment of the Aga Khan Academies, an integrated, global network of schools dedicated to expanding access to the highest standard of education. The first Academy opened in Mombasa, Kenya in 2003, followed by Hyderabad, India in 2011, Maputo, Mozambique in 2013 and Dhaka, Bangladesh in 2022.</p>
                     </div>
                 </div>
             </div>
@@ -190,8 +180,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                         <h2 class="text-center">Aga Khan Academies Worldwide</h1>
-                         <img src="assets/images/about/map.png" class="img-fluid">
+                        <!-- <h2 class="text-center">Aga Khan Academies Worldwide</h1> -->
+                        <img src="assets/images/about/map.png" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -223,7 +213,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 mt-4 mt-md-0">
                     <h5>Our Network</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -251,30 +241,28 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
-                    <h5>Follow Us</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i>Facebook</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i>X</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i>Linkedin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i>Instagram</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i>YouTube</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 mt-4 mt-xl-0">
                     <h5 class="newsletter">Sign Up To Get The Latest News From The Aga Khan Schools</h5>
                     <input type="email" id="email" class="form-control" placeholder="Enter Email">
                     <button type="button" class="btn btn-success btn-submit">Sign Up</button>
+                    <h5 class="mt-4">Follow Us</h5>
+                    <ul class="nav gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="row cpr-row">

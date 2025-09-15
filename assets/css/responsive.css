@@ -445,6 +445,11 @@
 		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 		margin-left: 10px;
 	}
+
+	.navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 }
 
 @media (min-width: 1400px) { 

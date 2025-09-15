@@ -15,7 +15,7 @@
 <body>
     <header>
         <section class="menu" id="navbar_top">
-            <nav class="navbar navbar-expand-xl">
+            <nav class="navbar navbar-expand-xl fixed-top">
                 <div class="container align-items-center justify-content-between">
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/images/logo/aka-logo.png" class="img-fluid logo" alt="Logo">
@@ -30,8 +30,8 @@
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body justify-content-center">
-                            <ul class="navbar-nav">
+                        <div class="offcanvas-body justify-content-between">
+                            <ul class="navbar-nav main-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
@@ -66,15 +66,6 @@
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="contact-us.html">Contact Us</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="cookie-policy.html">Cookie Policy</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -132,9 +123,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="admissions.html">Admissions</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="get-involved.html">Get Involved</a>
-                                </li>
+                            </ul>
+                            <ul class="navbar-nav gap-4">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><i class="fa-solid fa-globe pe-1"></i> EN</a>
                                 </li>
@@ -142,7 +132,7 @@
                                     <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="btn btn-menu nav-link" href="donate.html">Donate</a>
+                                    <button class="btn btn-menu nav-link" id="openForm">Donate</button>
                                 </li>
                             </ul>
                         </div>
@@ -162,6 +152,7 @@
                             <div class="container">
                                 <h5>State-of-the-art-facilities</h5>
                                 <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                                <a href="index.html" class="link">Learn More <i class="fa-solid fa-arrow-right ps-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -171,6 +162,7 @@
                             <div class="container">
                                 <h5>State-of-the-art-facilities</h5>
                                 <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                                <a href="index.html" class="link">Learn More <i class="fa-solid fa-arrow-right ps-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -180,6 +172,17 @@
                             <div class="container">
                                 <h5>State-of-the-art-facilities</h5>
                                 <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                                <a href="index.html" class="link">Learn More <i class="fa-solid fa-arrow-right ps-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/slider/aku.png" class="img-fluid" alt="Slider">
+                        <div class="slider-content">
+                            <div class="container">
+                                <h5>State-of-the-art-facilities</h5>
+                                <p class="mb-0">The Aga Khan Academy Mombasa features numerous indoor and outdoor facilities, including its expansive amphitheatre where school assemblies and events take plate.</p>
+                                <a href="index.html" class="link">Learn More <i class="fa-solid fa-arrow-right ps-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -198,7 +201,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h1>About The Aga Khan Academies</h1>
-                        <p>The Aga Khan Academies develop ethical leaders who work to transform their societies. We select talented children from all backgrounds and give them a rigorous international education, a pluralist cultural experience in an inspiring environment and opportunities to learn through service.</p>
+                        <p>The Aga Khan Academies develops ethical leaders who work to transform their societies. We select talented children from all backgrounds and give them a rigorous international education, a pluralist cultural experience in an inspiring environment and opportunities to learn through service.</p>
                     </div>
                 </div>
             </div>
@@ -212,9 +215,8 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <h2>What are the Academies?</h1>
-                        <p>The Academies are a global network of IB schools currently based in Kenya, India, Mozambique and Bangladesh. They will form an international learning community of 18 schools across Africa, Asia and the Middle East.</p>
-                        <p> The Academies accept exceptional students aged six to 18, offering financial assistance where needed. Local and international students follow the International Baccalaureate (IB) curriculum as part of their holistic residential education. They live and learn with others from a variety of backgrounds, developing as ethical leaders in world-standard surroundings.</p>
-                        <a href="" class="link">See our broucher</a>
+                        <p>The Academies are an integrated, global network of day and residential International Baccalaureate (IB) schools based in Kenya, India, Mozambique and Bangladesh. They are part of the Aga Khan Schools, a global network of 200 schools, eight hostels and more than 100 non-formal education programme centres in 12 countries across East Africa, South and Central Asia, and the Middle East. </p>
+                        <p>The Academies accept exceptional students aged three to 18, offering financial assistance where needed. Local and international students follow the IB curriculum as part of their holistic education. Whether a day or residential student, they live and learn with others from a variety of backgrounds, developing as ethical leaders in world-standard surroundings.</p>
                     </div>
                 </div>
             </div>
@@ -237,14 +239,14 @@
                 <div class="row">
                     <div class="col-12">
                         <h2>Investing in Teachers</h2>
-                        <p>As part of the AKDN network, the Academies aim to contribute to national education priorities through their <a href="#">Professional Development Centres</a>. These provide learning opportunities for both Academy staff and local, external participants. Working with educational departments and schools, we design hands-on programmes such as</p>
+                        <p>The Academies aim to contribute to national education priorities through their <a href="development-centres.html">Professional Development Centres</a>. These provide learning opportunities for both Academy staff and local, external participants. Working with educational departments and schools, we design hands-on programmes such as:</p>
                         <ul>
                             <li>English language refreshers</li>
                             <li>Subject-specific knowledge</li>
                             <li>Leadership capability</li>
                             <li>Skills for effective teaching</li>
                         </ul>
-                        <p> Our Center experts then bring their learning to each participant’s classroom by observing and assisting. This builds professional competence and embeds good practice in teaching.</p>
+                        <p>Our Centre experts then bring their learning to each participant’s classroom by observing and assisting. This builds professional competence and embeds good practice in teaching.</p>
                     </div>
                 </div>
             </div>
@@ -261,8 +263,8 @@
                         <p>“The residences at the Aga Khan Academy Maputo is a place where students and faculty live on campus far away from their homes for a better study experience. In the residences, we meet people from different places, learn new skills, gain knowledge and build relationships with each other. I have been a part of the residential programme for one year and my time so far has been great and memorable.</p>
                         <p> We begin early at 6 am with morning exercises and breakfast. Classes start at 7.45 am and end at 2.35 pm with two breaks in between for snack and lunch. After school hours, the residential students have study time for one hour and 15 minutes to complete our tasks and assignments. Then we have two hours before dinner to relax, speak to our parents, play sports, etc. There is more study time after dinner for three hours, followed by a snack, and then it’s lights out at 10.15 pm.</p>
                         <p> On the weekends, we go off campus for excursions, such as the beach, water parks, cultural heritage sites and much more. We can also go to our places of worship on Fridays and the weekend, accompanied by a teacher.”</p>
-                        <p class="fw-bold">Alvin Banani, Grade 10</p>
-                        <a href="" class="link">Meet more of our students <i class="fa-solid fa-arrow-right ps-2"></i></a>
+                        <p class="fw-bold">Alvin Banani, Grade 10 student, AKA Maputo</p>
+                        <a href="the-campus-experience.html" class="link">Learn More<i class="fa-solid fa-arrow-right ps-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -293,12 +295,12 @@
                         <img src="assets/images/about/image.png" class="img-fluid" >
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <h2>Sharing Knowledge Through The Professional Development Centres</h2>
+                        <h2>Sharing Knowledge</h2>
                         <p>“Through the Academy’s Professional Learning for Educators Series programme, I have had the opportunity to interact with teachers from government schools across Telangana. It has been encouraging to see a lively room with enthusiastic participants discussing and collaborating with each other on various pedagogical skills. </p>
                         <P>Lesson planning is something many teachers struggle with. However, after each training course, I witness a dramatic improvement in each teacher’s lesson plans during classroom observations in their schools. They have also boosted their confidence levels through improving their English. The teachers have developed a better understanding of classroom management, the roles of teachers and learners, and the best teaching practices for all learners. </p>
                         <P>Watching the teachers blossom into more confident individuals, both personally and professionally, is the most significant experience for me as an educator. Gaining knowledge of government schools and their students also enables us to identify and address the needs and learning abilities of all students to ensure there is continuity of education.”</p>
-                        <p class="fw-bold">Amanda Khongwir, AKA Hyderabad Professional Development Centre</p>
-                        <a href="" class="link">Meet more of our students <i class="fa-solid fa-arrow-right ps-2"></i></a>
+                        <p class="fw-bold">Amanda Khongwir, AKA Hyderabad Teacher</p>
+                        <a href="development-centres.html" class="link">Find out more about our Professional Development Centres<i class="fa-solid fa-arrow-right ps-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -390,7 +392,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-md-0">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 mt-4 mt-md-0">
                     <h5>Our Network</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -418,30 +420,28 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
-                    <h5>Follow Us</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i>Facebook</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i>X</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i>Linkedin</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i>Instagram</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i>YouTube</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-2 mt-4 mt-xl-0">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 mt-4 mt-xl-0">
                     <h5 class="newsletter">Sign Up To Get The Latest News From The Aga Khan Schools</h5>
                     <input type="email" id="email" class="form-control" placeholder="Enter Email">
                     <button type="button" class="btn btn-success btn-submit">Sign Up</button>
+                    <h5 class="mt-4">Follow Us</h5>
+                    <ul class="nav gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/AKAcademies" target="_blank"><i class="fa-brands fa-facebook pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://x.com/akacademies" target="_blank"><i class="fa-brands fa-x-twitter pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://fr.linkedin.com/company/agakhanacademies" target="_blank"><i class="fa-brands fa-linkedin pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/akacademies/" target="_blank"><i class="fa-brands fa-instagram pe-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/user/AcademiesUnit" target="_blank"><i class="fa-brands fa-youtube pe-3"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="row cpr-row">
