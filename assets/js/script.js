@@ -45,3 +45,8 @@ $(function() {
     }
     });
 });
+
+
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'auto'; // let the browser do it
+}
