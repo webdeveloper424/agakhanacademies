@@ -1200,6 +1200,55 @@ ol {
 
 /* End Mombasa */
 
+/* Start Our Network */
+
+#maps {
+    height: 850px;
+}
+
+.popup-content {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.popup-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.popup-desc {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.popup-link {
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.popup-video {
+    display: block;
+    margin-top: 8px;
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+
+.mapboxgl-popup {
+    max-width: 700px !important;
+}
+
+.mapboxgl-popup-close-button {
+    font-size: 24px;
+    right: 5px;
+    top: 5px;
+}
+
+/* End Our Network */
+
 /* Start Footer */
 
 footer {
