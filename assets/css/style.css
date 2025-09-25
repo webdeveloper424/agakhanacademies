@@ -1261,22 +1261,16 @@ ol {
 
 .info-panel {
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 17%;
     width: 600px;
-    height: 50%;
+    height: 65%;
     background: var(--white);
     z-index: 10;
     padding: 20px;
-    overflow-y: auto;
     box-shadow: 2px 0 8px rgba(0,0,0,0.2);
 }
 
-.info-panel iframe {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
 
 /* End Our Network */
 

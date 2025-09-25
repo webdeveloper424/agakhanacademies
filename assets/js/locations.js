@@ -16,7 +16,7 @@ const locations = [{
 	title: 'The Aga Khan Academy, Mombasa',
 	description: 'With students from four continents, the 18-acre Academy is as diverse as its host city. It opened in 2003 and has been recognised by Microsoft as the only Showcase School in East Africa. ',
 	link: '',
-	media: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_eZomy-Lqbg?si=W-e_C4zNZp112ozU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+	media: '<iframe width="100%" height="350" src="https://www.youtube.com/embed/_eZomy-Lqbg?si=W-e_C4zNZp112ozU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 }, {
 	coordinates: [90.4238858, 23.8253946], // Dhaka
 	title: 'Aga Khan Academy Dhaka',
@@ -41,7 +41,7 @@ locations.forEach(loc => {
 	marker.getElement().addEventListener('click', () => {
 	infoContent.innerHTML = `
 		<h3 class="h5">${loc.title}</h3>
-		<p>${loc.description}</p>
+		<p class="mb-0">${loc.description}</p>
 		<a href="${loc.link}" target="_blank" class="btn btn-link p-0">Factsheet →</a>
 		<div class="mt-3">${loc.media}</div>
 	`;
