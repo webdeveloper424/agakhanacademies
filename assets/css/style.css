@@ -571,7 +571,7 @@ p.green {
     color: var(--green);
     text-decoration: none;
     padding: 12px 15px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .view-link:hover {
@@ -637,6 +637,7 @@ p.green {
     margin-bottom: 10px;
 }
 
+
 .quick-facts-2 h3, .quick-facts-2 h5 {
     color: var(--mandarine);
     margin-bottom: 10px;
@@ -652,11 +653,6 @@ p.green {
     margin-bottom: 10px;
 }
 
-.quick-facts-1 a, .quick-facts-2 a, .quick-facts-3 a, .quick-facts-4 a {
-    color: var(--black);
-    font-weight: bold;
-}
-
 .border-green {
     border-right: 5px solid var(--green);
 }
@@ -670,23 +666,52 @@ p.green {
     font-weight: bold;
 }
 
-.quick-facts-5 h3, .quick-facts-5 h5, .quick-facts-5 a {
+.quick-facts-5 h3, .quick-facts-5 h5 {
     color: var(--strawberry-red);
     margin-bottom: 10px;
 }
 
-.quick-facts-6 h3, .quick-facts-6 h5, .quick-facts-6 a {
+.quick-facts-6 h3, .quick-facts-6 h5 {
     color: var(--mandarine);
     margin-bottom: 10px;
 }
 
-.quick-facts-7 h3, .quick-facts-7 h5, .quick-facts-7 a {
+.quick-facts-7 h3, .quick-facts-7 h5 {
     color: var(--viola);
     margin-bottom: 10px;
 }
 
-.quick-facts-8 h3, .quick-facts-8 h5, .quick-facts-8 a {
+.quick-facts-8 h3, .quick-facts-8 h5 {
     color: var(--teal);
+    margin-bottom: 10px;
+}
+
+.quick-facts-1 a, .quick-facts-2 a, .quick-facts-3 a, .quick-facts-4 a, .quick-facts-5 a, .quick-facts-6 a, .quick-facts-7 a, .quick-facts-8 a {
+    color: var(--black);
+    font-weight: bold;
+}
+
+.quick-facts-1 i, .quick-facts-5 i {
+    color: var(--strawberry-red);
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.quick-facts-2 i, .quick-facts-6 i {
+    color: var(--mandarine);
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.quick-facts-3 i, .quick-facts-7 i {
+    color: var(--viola);
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.quick-facts-4 i, .quick-facts-8 i {
+    color: var(--teal);
+    font-size: 48px;
     margin-bottom: 10px;
 }
 
@@ -743,6 +768,120 @@ p.green {
 }
 
 /* End Contact Us */
+
+/* Start Our Network */
+
+.map-section {
+    position: relative;
+}
+
+#maps {
+    height: 850px;
+    position: relative;
+    width: 100%;
+}
+
+.popup-content {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.popup-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.popup-desc {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.popup-link {
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.popup-video {
+    display: block;
+    margin-top: 8px;
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+
+.mapboxgl-popup {
+    max-width: 700px !important;
+}
+
+.mapboxgl-popup-close-button {
+    font-size: 24px;
+    right: 5px;
+    top: 5px;
+}
+
+.info-panel {
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    width: 600px;
+    height: 65%;
+    background: var(--white);
+    z-index: 10;
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+}
+
+
+/* End Our Network */
+
+/* Start Work With Us */
+
+.job-card {
+    background-color: var(--green);
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.job-card .card-body {
+    padding: 0px;
+}
+
+.job-card h4, .job-card a, .job-card p, .job-card i {
+    color: var(--white);
+}
+
+.view-all-link {
+    border: 2px solid var(--green);
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: var(--green);
+    text-decoration: none;
+    padding: 12px 15px;
+}
+
+.view-all-link:hover {
+    color: var(--white);
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+/* End Work With Us */
+
+/* Start Mombasa */
+
+.mombasa-nav .navbar-nav .nav-item .nav-link.active {
+    color: var(--viola);
+}
+
+.mombasa-nav .navbar-nav .nav-item.dropdown .nav-link.active {
+    color: var(--green);
+}
+
+/* End Mombasa */
 
 /* Start The Campus Experience */
 
@@ -1193,86 +1332,6 @@ ol {
 }
 
 /* End Maputo */
-
-/* Start Mombasa */
-
-.mombasa-nav .navbar-nav .nav-item .nav-link.active {
-    color: var(--viola);
-}
-
-.mombasa-nav .navbar-nav .nav-item.dropdown .nav-link.active {
-    color: var(--green);
-}
-
-/* End Mombasa */
-
-/* Start Our Network */
-
-.map-section {
-    position: relative;
-}
-
-#maps {
-    height: 850px;
-    position: relative;
-    width: 100%;
-}
-
-.popup-content {
-    width: 300px;
-    font-family: Arial, sans-serif;
-    margin-top: 25px;
-}
-
-.popup-title {
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 4px;
-}
-
-.popup-desc {
-    font-size: 13px;
-    margin-bottom: 8px;
-}
-
-.popup-link {
-    color: #1da1f2;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.popup-video {
-    display: block;
-    margin-top: 8px;
-    width: 100%;
-    height: 150px;
-    background-color: #ccc;
-}
-
-.mapboxgl-popup {
-    max-width: 700px !important;
-}
-
-.mapboxgl-popup-close-button {
-    font-size: 24px;
-    right: 5px;
-    top: 5px;
-}
-
-.info-panel {
-    position: absolute;
-    top: 10%;
-    left: 17%;
-    width: 600px;
-    height: 65%;
-    background: var(--white);
-    z-index: 10;
-    padding: 20px;
-    box-shadow: 2px 0 8px rgba(0,0,0,0.2);
-}
-
-
-/* End Our Network */
 
 /* Start Footer */
 
